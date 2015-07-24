@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="../../js/mui.min.js"></script>
+	    <link href="../../css/mui.min.css" rel="stylesheet"/>
+		<script type="text/javascript" src="../../js/common.js"></script>
+		<link rel="stylesheet" href="../../css/common.css" type="text/css" charset="utf-8"/>
+		<link rel="stylesheet" href="../../component/fontAwesome/css/font-awesome.min.css" />
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		  <button class="mui-btn mui-btn-link mui-btn-nav mui-pull-left" onclick="back(true);">
+		    <span class="mui-icon mui-icon-left-nav"></span>
+		    首页
+		  </button>
+		  <h1 class="mui-title">增持申请</h1>
+		</header>
+		<!--<header>
+			<div class="nvbt iback" onclick="back(true);"></div>
+			<div class="nvtt">增持申请</div>
+		</header>-->
+		<div style="padding: 60px 0 0 0;" class="mui-content-padded">
+			<p><i class="fa fa-rmb fa-lg"></i> 已有本金：</p>
+			<form >
+				<div class="mui-input-row">
+					<label>金额：</label>
+					<input type="number" class="mui-input-clear" autofocus="autofocus" placeholder="最小金额为1000">
+				</div>
+				<div class="mui-input-row">
+					<label>姓名：</label>
+					<input type="text" class="mui-input-clear" placeholder="您的姓名">
+				</div>
+				<div class="mui-input-row">
+					<label>电话：</label>
+					<input type="text" class="mui-input-clear" placeholder="用于确认的途径">
+				</div>
+				<div class="mui-button-row">
+					<button class="mui-btn mui-btn-primary  mui-btn-block" onclick="return false;">增持</button>
+				</div>
+			</form>
+			<br/>
+			<p><i class="fa fa-warning fa-lg"></i>风险提示：</p>
+			<small>
+				<br/>1、股市有风险、投资需谨慎！
+				<br/>2、缺少耐心、情绪化的人请您三思！
+				<br/>3、若有任何资金问题可直接联系我们！
+				<br/>4、投资前请先明确了解双方的义务与职责！
+			</small>
+			<p><a href="../../page/contractTemplate/addingTemplate.html" style="text-decoration: none;">《增持合同》</a></p>
+		</div>
+	</body>
+</html>

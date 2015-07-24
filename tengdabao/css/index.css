@@ -1,0 +1,42 @@
+#moneyContent{
+	padding-top: 10px;
+	height: 63%;
+}
+#buttonGroup{
+	width: 100%;
+	height: 35%;
+}
+#buttonGroup tr td{
+	cursor: pointer;
+	height: 50%;
+	widows: 33%;
+	border: 1px solid #F1F2F3;
+	background-color: #F8F8F8;
+}
+
+#buttonGroup tr td:hover{
+	text-decoration:none;
+	background-color: #F3F3F3;
+}
+
+.leftMoneyDiv{
+	float: left;
+	width: 70%;
+	height: 100%;
+}
+.rightMoneyDiv{
+	float: right;
+	width: 30%;
+	height: 100%;
+}
+
+
+.countList{
+	list-style-type: none;
+	text-align: left;
+	padding: 1px;
+}
+
+.number{
+	color: red;
+}
